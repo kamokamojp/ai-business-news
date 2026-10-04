@@ -1,0 +1,143 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Japanese daily AI news edition",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "editionDate",
+    "sourceDate",
+    "status",
+    "articles"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "editionDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "sourceDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "status": {
+      "enum": [
+        "pending",
+        "ready",
+        "partial"
+      ]
+    },
+    "updatedAt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "notice": {
+      "type": "string"
+    },
+    "articles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "region",
+          "category",
+          "title",
+          "summary",
+          "whyItMatters",
+          "publisher",
+          "originalUrl",
+          "publicationDateJst",
+          "selfReportedMetrics"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "region": {
+            "enum": [
+              "world",
+              "japan"
+            ]
+          },
+          "category": {
+            "enum": [
+              "business_case",
+              "product",
+              "trend"
+            ]
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "summary": {
+            "type": "string",
+            "minLength": 1
+          },
+          "whyItMatters": {
+            "type": "string",
+            "minLength": 1
+          },
+          "publisher": {
+            "type": "string",
+            "minLength": 1
+          },
+          "originalUrl": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https?://"
+          },
+          "publicationDateJst": {
+            "type": "string",
+            "format": "date"
+          },
+          "publishedAtOriginal": {
+            "type": "string",
+            "description": "Original source date/time and timezone as verified; do not infer a time when only a date is stated."
+          },
+          "eventDate": {
+            "type": "string",
+            "description": "Optional event date, displayed separately from publication date."
+          },
+          "selfReportedMetrics": {
+            "type": "boolean"
+          },
+          "publicationDateNote": {
+            "type": "string",
+            "description": "日付の根拠・時刻やタイムゾーンの不明点。JST換算を推測しない。"
+          },
+          "publicationDate": {
+            "type": "string",
+            "format": "date",
+            "description": "出典に表示された公開日。"
+          },
+          "eventDateNote": {
+            "type": "string"
+          },
+          "metricsNote": {
+            "type": "string"
+          },
+          "sourceType": {
+            "type": "string"
+          },
+          "vendors": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "timezone": {
+      "const": "Asia/Tokyo"
+    }
+  },
+  "description": "One unified list. Use region japan/world; display 日本/海外. No item-count or regional quota. publicationDateJst must be verified, never invented."
+}

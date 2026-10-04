@@ -1,0 +1,106 @@
+{
+  "articles": [
+    {
+      "id": "den",
+      "region": "海外",
+      "title": "米ソーシャルクラブ、申請資料づくりを数日から数時間へ",
+      "publisher": "OpenAI",
+      "originalUrl": "https://openai.com/index/the-den-family-social/",
+      "publicationDate": "2026-10-01",
+      "publicationDateNote": "一次ページに表示された公開日。公開時刻・タイムゾーンは不明。",
+      "eventDate": "不明（原文に暦日の記載なし）",
+      "eventDateNote": "2店舗目の開業準備期の実践。導入日・測定期間の明記なし。",
+      "category": "活用事例",
+      "summary": "デンバーのThe Denは、ChatGPT WorkでGmail・Slack・Google Driveに散在する情報をまとめ、2店舗目の酒類免許や助成金申請の準備に活用している。経営チームは週10〜15時間を節約し、助成金申請は3日から2時間、酒類免許資料の準備は4日から3時間になったと説明する。出力の正確性の確認と最終判断は人が担う。",
+      "whyItMatters": "情報収集、不足資料の洗い出し、書式整理を一連の業務としてAIに任せる、小規模企業の具体例。",
+      "selfReportedMetrics": true,
+      "metricsNote": "導入企業の自己申告をOpenAIが紹介。第三者検証や対照比較は掲載されていない。",
+      "sourceType": "ベンダー公式の顧客事例",
+      "vendors": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "kyoshin",
+      "region": "日本",
+      "title": "京進、Difyで面談記録と社内FAQを実用化。年間5,600時間の削減効果を試算",
+      "publisher": "京進グループ",
+      "originalUrl": "https://group.kyoshin.co.jp/news/742819/",
+      "publicationDate": "2026-10-01",
+      "publicationDateNote": "一次ページに表示された公開日。公開時刻・タイムゾーンは明記なし。",
+      "eventDate": "2026年9月10日",
+      "eventDateNote": "IF Con Tokyo 2026での講演日。導入開始日ではない。",
+      "category": "活用事例",
+      "summary": "京進グループは、Difyを使った面談録音の文字起こし・要約・記録アプリと、既存マニュアルを参照する社内FAQボットの活用を公表した。年間約5,600時間の業務削減効果を試算し、音声解析の単価はモデルの最適化によって1分あたり約1円から約0.1円になったと説明する。発表内容は9月10日の講演をまとめたもので、時間削減効果は実績の確定値ではない。",
+      "whyItMatters": "AIを試すだけで終わらせず、運用コスト、効果測定、マニュアルの自動取り込みまで整えた事例。",
+      "selfReportedMetrics": true,
+      "metricsNote": "導入企業による試算・公表値。年間5,600時間は実測済みの年間削減実績ではなく、算出の詳細条件は本文に掲載なし。",
+      "sourceType": "導入企業の公式発表",
+      "vendors": [
+        "Dify"
+      ],
+      "eventLabel": "講演日"
+    },
+    {
+      "id": "kddi-iret",
+      "region": "日本",
+      "title": "KDDIアイレット、回答生成とAI検品を分けてサポート対応を約17%短縮",
+      "publisher": "KDDIアイレット / cloudpack",
+      "originalUrl": "https://cloudpack.jp/casestudy/26-16-kddiiret.html",
+      "publicationDate": "2026-09-30",
+      "publicationDateNote": "一次ページの『掲載日』。公開時刻・タイムゾーンは明記なし。",
+      "eventDate": "不明（原文に暦日の記載なし）",
+      "eventDateNote": "対象の二層型エージェントの導入日・評価期間は不明。本文の2026年2月は先行する一次窓口チャットボットの導入時期であり、本件と混同しない。",
+      "category": "活用事例",
+      "summary": "KDDIアイレットは、Geminiを使う回答生成エージェントと、回答の根拠を確認する別のAIを組み合わせ、技術サポートを支援している。公式文書と社内ナレッジを横断検索し、担当者が最終確認する運用に変えた結果、1件あたりの平均対応時間が4.2時間から3.5時間へ約17%短縮したと公表した。AIによる検品は送信可否を決めず、人が確認すべき箇所と順番を示す。",
+      "whyItMatters": "回答を速く作るだけでなく、出典との照合や人の確認負荷まで設計した業務改善。",
+      "selfReportedMetrics": true,
+      "metricsNote": "同社の導入前後比較による公表値。評価期間・件数・第三者検証は本文に掲載なし。",
+      "sourceType": "導入・構築企業の公式事例",
+      "vendors": [
+        "Google / Gemini"
+      ]
+    },
+    {
+      "id": "moten",
+      "region": "海外",
+      "title": "米AI研修講師、営業先調査と個別メールの下書きから10日で有償受注",
+      "publisher": "OpenAI Academy",
+      "originalUrl": "https://academy.openai.com/public/blogs/an-ai-trainer-wins-a-paid-school-booking-in-ten-days-with-chatgpt-work-2026-09-30",
+      "publicationDate": "2026-09-30",
+      "publicationDateNote": "一次ページに表示された公開日。公開時刻・タイムゾーンは不明。",
+      "eventDate": "不明（原文に暦日の記載なし）",
+      "eventDateNote": "営業活動の開始日・受注日の暦日は掲載なし。10日間は本人が述べる経過期間。",
+      "category": "活用事例",
+      "summary": "テキサス州のAI研修講師Teri R. Moten氏は、ChatGPT Workに近隣学区の担当者と研修日程を調べさせ、相手に合わせた営業メールを下書きさせた。本人によると、約10分で48件の連絡先と下書きがそろい、確認・修正して送信した後、10日以内に有償の研修予約につながった。AIが自動で契約を取った事例ではなく、電話や対面打ち合わせも経た受注だ。",
+      "whyItMatters": "営業経験のある個人事業主が、調査と下書きの負担を減らして商談に時間を使った具体例。",
+      "selfReportedMetrics": true,
+      "metricsNote": "本人の体験談をOpenAI Academyが掲載。効果の独立検証や、受注との因果関係を示す比較はない。",
+      "sourceType": "ベンダー公式の利用者紹介",
+      "vendors": [
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "stellantis",
+      "region": "海外",
+      "title": "英Stellantis &You、AI電話受付を顧客データに接続し月2万件へ",
+      "publisher": "Make",
+      "originalUrl": "https://www.make.com/en/success-stories/how-stellantis-scaled-an-ai-voice-agent-with-make",
+      "publicationDate": "2026-09-22",
+      "publicationDateNote": "一次ページに表示された公開日。公開時刻・タイムゾーンは不明。",
+      "eventDate": "不明（原文に暦日の記載なし）",
+      "eventDateNote": "導入開始日・測定期間の明記なし。",
+      "category": "活用事例",
+      "summary": "英国のStellantis &Youは、ElevenLabsで構築したAI電話受付をMakeに接続し、通話中に実際の顧客データを取得できるようにした。Makeの事例紹介によると、現在は月2万件の電話を処理し、この用途だけで年間20万ポンドの費用削減につながっている。従来の受付チームでは営業時間や回答できる内容に制約があったという。",
+      "whyItMatters": "音声AIの応答能力に加え、既存の顧客データへの接続が実務価値を左右することを示す。",
+      "selfReportedMetrics": true,
+      "metricsNote": "ベンダー公式事例に記載された導入先の成果。費用削減の算定期間・内訳・独立検証は掲載なし。",
+      "sourceType": "ベンダー公式の顧客事例",
+      "vendors": [
+        "Make",
+        "ElevenLabs"
+      ]
+    }
+  ]
+}
