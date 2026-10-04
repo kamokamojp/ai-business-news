@@ -1,0 +1,7 @@
+# AIビジネスニュース: historical radio preview
+
+This snapshot contains the public static-site page and its reproducible VOICEVOX Nemo generation script. The displayed five articles are the historical prototype published from 2026-09-22 through 2026-10-01 with a 2026-10-03 cutoff; it is not a current edition. The page retains original article sources, Japanese/world badges, metric disclosures, transcript, player speed/pause controls, and browser Web Speech fallback.
+
+The companion audio is served at the same public Site URL: https://daily-ai-business-news.aixme-lab.chatgpt.site/radio_show.mp3 . The MP3 is not duplicated in this private repository snapshot. SHA-256 of the published combined episode at upload time: 7b12ad7ecacd1c270b141cb3672fecc0b16f0994d8c3dec54dff0d74343c6c07 . It is about 3:47; the new opening has fictional hosts 水野あかり and 高瀬直人 and Akari's AI-generation disclaimer. Credit on the page: VOICEVOX Nemo, female 1 (10005) and male 1 (10001).
+
+To regenerate a daily episode, use official VOICEVOX Nemo Engine 0.24.0 CPU/x64 with its bundled models on localhost:50021, create `scripts/radio-script.json` containing ordered `utterances` (`speaker` is `akari` or `naoto`, `text` is Japanese narration), then run `node scripts/build-radio.mjs scripts/radio-script.json radio_show.mp3`. The script calls only the local Engine HTTP API and local ffmpeg; no paid TTS API or credentials. `scripts/radio-script.prototype.json` contains only the dated historical sample, not current news.
