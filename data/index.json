@@ -3,6 +3,14 @@
   "timezone": "Asia/Tokyo",
   "editions": [
     {
+      "editionDate": "2026-10-07",
+      "sourceDate": "2026-10-06",
+      "jsonPath": "data/editions/2026-10-06.json",
+      "markdownPath": "digests/2026-10-06.md",
+      "htmlPath": "html/ai-business-news-2026-10-06.html",
+      "status": "ready"
+    },
+    {
       "editionDate": "2026-10-06",
       "sourceDate": "2026-10-05",
       "jsonPath": "data/editions/2026-10-05.json",
