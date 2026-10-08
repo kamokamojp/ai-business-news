@@ -94,8 +94,12 @@
             "pattern": "^https?://"
           },
           "publicationDateJst": {
-            "type": "string",
-            "format": "date"
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date",
+            "description": "Verified JST publication date. Use null when initial date cannot be established; explain the source display date and uncertainty in publicationDateNote."
           },
           "publishedAtOriginal": {
             "type": "string",
@@ -139,5 +143,6 @@
       "const": "Asia/Tokyo"
     }
   },
-  "description": "One unified list. Use region japan/world; display 日本/海外. No item-count or regional quota. publicationDateJst must be verified, never invented."
+  "description": "One unified list. Use region japan/world; display 日本/海外. No item-count or regional quota. publicationDateJst must be verified or null, never invented."
 }
+

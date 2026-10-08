@@ -10,7 +10,7 @@
     a.append(meta, el('h3','',article.title),el('p','summary',article.summary));
     if(article.whyItMatters) { const why = el('p','why'); why.append(el('strong','','仕事へのヒント'),document.createTextNode(article.whyItMatters)); a.append(why); }
     if(article.selfReportedMetrics) a.append(el('p','reported',article.metricsNote || '効果・実績の数値は発表元による公表値です。'));
-    const foot = el('div','article-foot'); const dates = el('div','dates'); dates.append(el('p','','公開：'+formatDate(article.publicationDateJst)+'（日本時間）'));
+    const foot = el('div','article-foot'); const dates = el('div','dates'); dates.append(el('p','',article.publicationDateJst ? '公開：'+formatDate(article.publicationDateJst)+'（日本時間）' : '日本時間の初出日：未確定'));
     if(article.publicationDateNote) dates.append(el('p','',article.publicationDateNote));
     if(article.eventDate) dates.append(el('p','','出来事：'+article.eventDate));
     const link=el('a','source-link','原文を読む');
@@ -21,7 +21,7 @@
     const edition = data.latest || data;
     if(!edition.editionDate || !Array.isArray(edition.articles)) throw new Error('Unexpected data');
     $('edition-date').textContent=formatDate(edition.editionDate);
-    $('source-window').textContent='対象：'+formatDate(edition.sourceDate)+'に公開された記事';
+    $('source-window').textContent='対象：'+formatDate(edition.sourceDate)+'を中心とした記事';
     $('article-count').textContent=String(edition.articles.length); const list=$('articles'); list.replaceChildren(); if(edition.articles.length)edition.articles.forEach(a=>list.append(card(a))); else list.append(el('p','empty',edition.status==='pending'?'確認できた記事を、ここに掲載します。':'この日の条件に合う重要記事は、現時点で確認できていません。'));
     const status=$('status');status.replaceChildren();status.hidden=false;
     if(edition.status==='pending'){status.append(el('h3','','初回配信を準備しています'),el('p','','10月5日（月）8:00に、前日公開のAIニュースをお届けする予定です。'));}
@@ -32,3 +32,4 @@
   }
   fetch('./data/feed.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('Cannot load');return r.json();}).then(render).catch(()=>{const status=$('status');status.hidden=false;status.classList.add('error');status.replaceChildren(el('h3','','ニュースを読み込めませんでした'),el('p','','少し待ってから、このページを再読み込みしてください。'));});
 })();
+
