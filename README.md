@@ -19,7 +19,7 @@
 | `digests/YYYY-MM-DD.md` | 同じ対象ニュース日の人が読める日本語版 |
 | `html/ai-business-news-YYYY-MM-DD.html` | 対象ニュース日（sourceDate）ごとの単独で開けるHTML |
 | `data/feed.json` | 最新版と同じJSON。初回前は記事なしの `pending` |
-| `data/index.json` | 公開済み版の索引。新しい対象ニュース日を先に並べる |
+| `data/index.json` | 公開済み版の索引。配信日（editionDate）の新しい順に並べる |
 | `data/feed.schema.json` | JSON形式の定義 |
 | `templates/edition.json` / `templates/digest.md` | 次回分の雛形。実記事ではない |
 | `index.html` / `app.js` / `styles.css` | 最新JSONを読む軽量リーダー。ビルド・外部素材・認証情報は不要 |
@@ -33,10 +33,18 @@
 2. 出典と公開日を確認し、`data/feed.schema.json` に沿った完成版を作ります。`updatedAt` はタイムゾーン付きの実際の更新日時です。
 3. 確認が十分なら `ready`、一部情報源に到達できないなどの制約が残る場合は `partial` にし、`notice` に具体的な限界を書きます。重要な対象記事が見つからなければ空配列のまま正直に記します。
 4. sourceDateをファイル名にした日付別JSONとMarkdownを保存し、同じJSONで `data/feed.json` を更新します。
-5. `data/index.json` の `editions` に `{ "editionDate": "配信日", "sourceDate": "対象日", "jsonPath": "data/editions/対象日.json", "markdownPath": "digests/対象日.md", "htmlPath": "html/ai-business-news-対象日.html", "status": "ready" }` を追加します。同じsourceDateは二重登録せず更新します。
+5. `data/index.json` の `editions` に `{ "editionDate": "配信日", "sourceDate": "対象日", "jsonPath": "data/editions/対象日.json", "markdownPath": "digests/対象日.md", "htmlPath": "html/ai-business-news-対象日.html", "status": "ready" }` を追加し、editionDateの降順に並べます。同じsourceDateは二重登録せず更新します。
 6. 保存後に読んで内容を検証します。既存ファイルの更新では最新のblob SHAを取得して競合を防ぎます。
 
 日次処理は外部の予約タスクが担当します。このリポジトリにはGitHub Actions、APIキー、認証情報、公開用の配信先は追加していません。初回の自動保存は実行後に別途確認します。
+
+## 公開サイトと日付別アーカイブ
+
+公開中のSitesトップページは最新号から過去号へ並ぶ一覧です。各号のHTMLは `/editions/<sourceDate>.html` の固定URLで開けます。最新号のMP3は `/editions/radio_show-<sourceDate>.mp3` に保存し、過去号のURLや本文を新号で上書きしません。
+
+日次更新時は、Sites用 `scripts/archive-index.json` の先頭に新しい号を追加し、同じ `sourceDate` のHTMLとMP3を `dist/editions/` に保存してから `node scripts/build-homepage.mjs` を実行します。GitHub側の `data/index.json` も新しい配信日順に更新し、過去の索引項目を残します。配信前に各索引リンクが実在する日付別ページへ到達することをテストで確かめます。
+
+現在のトップページは https://daily-ai-business-news.kamokamojp.chatgpt.site/ です。2026年10月9日配信号（対象日10月8日）の固定ページは https://daily-ai-business-news.kamokamojp.chatgpt.site/editions/2026-10-08.html です。
 
 ## リーダーと試作版
 
@@ -48,3 +56,7 @@ GitHub上ではMarkdown版をそのまま読めます。`previews/recent-ai-busi
 
 この版は10月7日のニュース7件に、公式ページの表示日が10月6日のOpenAI数学研究記事を加えた8件です。OpenAI記事は直近の発表として掲載し、日本時間の初出日は未確定のため `publicationDateJst: null` と明記しています。日付別HTMLには同じ8件を扱う男女のラジオ音声を内蔵しています。
 
+
+## 2026年10月9日配信の注記
+
+対象日に公開日を確認できた6件を掲載する部分版です。日付や時刻を日本時間で確認できなかった候補は含めず、前号のニュースで穴埋めしていません。固定HTMLにはニュース本文、VOICEVOX Nemoの音声、司会者画像、読み上げと速度の操作を保持しています。
