@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "editionDate": "2026-10-15",
+  "sourceDate": "2026-10-14",
+  "status": "partial",
+  "updatedAt": "2026-10-14T23:10:30Z",
+  "timezone": "Asia/Tokyo",
+  "notice": "2026年10月14日（日本時間）に発表元の公開時刻まで確認できた実務向けニュース6件を掲載しています。OpenAI、Anthropic、xAI、Googleなど海外の候補も調べましたが、公式ページの日付だけでは日本時間の対象日に公開されたと確認できないため含めていません。発表主体の自己申告値や今後の提供時期は各項目に注記しました。",
+  "articles": [
+    {
+      "id": "scsk-celf-ai-agent",
+      "region": "japan",
+      "category": "product",
+      "title": "SCSK、自然文から業務アプリを作るCELF AI開発エージェントを発表",
+      "summary": "SCSKは、Excelで行ってきた業務を自然文で説明すると、CELF上に業務アプリを生成・修正するAIエージェントを発表しました。ロジックも確認でき、10月14日からベータ参加企業を募集しています。",
+      "whyItMatters": "表計算のまま残っている申請・集計作業をアプリ化する入口になります。小規模な業務で生成内容や保守負担を確かめる価値がありますが、3〜8倍という開発生産性は同社の4件の先行評価による値です。",
+      "publisher": "SCSK株式会社",
+      "originalUrl": "https://www.scsk.jp/news/2026/pdf/20261014.pdf",
+      "publicationDate": "2026-10-14",
+      "publicationDateJst": "2026-10-14",
+      "publishedAtOriginal": "SCSK名義のPR TIMES掲載：2026年10月14日 12:06 JST。SCSK公式PDFも同日付です。",
+      "publicationDateNote": "公式PDFの日付と、SCSKが発表元として掲載したPR TIMESの公開時刻を確認しました。",
+      "publicationDateEvidenceUrl": "https://prtimes.jp/main/html/rd/p/000000085.000152961.html",
+      "eventDate": "2026-10-14（ベータ申込開始）〜2026-11-20（申込期限）",
+      "eventDateNote": "ベータの募集は30社まで。Claude Codeの利用には別料金がかかると説明されています。",
+      "selfReportedMetrics": true,
+      "metricsNote": "3〜8倍の生産性向上はSCSKによる4件のアルファ評価結果で、独立検証ではありません。",
+      "sourceType": "SCSK公式リリースPDF、公開時刻は発表元名義のPR TIMES",
+      "vendors": [
+        "SCSK",
+        "CELF"
+      ]
+    },
+    {
+      "id": "peoplex-ai-sales",
+      "region": "japan",
+      "category": "product",
+      "title": "PeopleX、商談データから次の行動を提案するAI営業支援を開始",
+      "summary": "PeopleXは、商談の会話や顧客情報を分析して評価や次のアクションを提案する「PeopleX AI商談支援」を提供開始しました。リード獲得から商談、顧客支援までを扱うAIネイティブ営業プラットフォームの一部として展開します。",
+      "whyItMatters": "面談記録の整理やフォロー項目の洗い出しを標準化し、営業管理者が案件確認に使う時間を抑える候補になります。導入前に、録音・顧客データの利用範囲や既存CRMとの連携を確認したいサービスです。",
+      "publisher": "株式会社PeopleX",
+      "originalUrl": "https://peoplex.jp/news/20261014/",
+      "publicationDate": "2026-10-14",
+      "publicationDateJst": "2026-10-14",
+      "publishedAtOriginal": "PeopleX名義のPR TIMES掲載：2026年10月14日 09:00 JST。公式発表ページも同日付です。",
+      "publicationDateNote": "公式ページの日付と、発表元名義のPR TIMES公開時刻を確認しました。",
+      "publicationDateEvidenceUrl": "https://prtimes.jp/main/html/rd/p/000000308.000139786.html",
+      "eventDate": "2026-10-14（提供開始の発表）",
+      "eventDateNote": "営業・顧客支援領域に7つのAI製品を展開する構想も発表されています。",
+      "selfReportedMetrics": false,
+      "metricsNote": "削減時間や成約率向上などの定量効果は公式発表に示されていません。",
+      "sourceType": "PeopleX公式ニュース、公開時刻は発表元名義のPR TIMES",
+      "vendors": [
+        "PeopleX"
+      ]
+    },
+    {
+      "id": "fraim-moneyforward-legal-poc",
+      "region": "japan",
+      "category": "business_case",
+      "title": "FRAIMとマネーフォワード、法務相談の知識を再利用するAIを実証",
+      "summary": "FRAIMとマネーフォワードは、過去の法務相談約1万8,000分類とチャット履歴を構造化し、参照根拠付きで類似事例や確認事項、回答案を提示する仕組みを試しました。相談の分類ごとにエージェントを分け、回答の送信前には人が確認する設計です。",
+      "whyItMatters": "蓄積された社内相談を検索可能なナレッジに変え、担当者が過去事例を探す時間を減らす実装例です。今回は2026年4〜6月のPoCで、商用提供や本番展開が決まったという発表ではありません。",
+      "publisher": "FRAIM株式会社・株式会社マネーフォワード",
+      "originalUrl": "https://fraim.co.jp/news/20261014/",
+      "publicationDate": "2026-10-14",
+      "publicationDateJst": "2026-10-14",
+      "publishedAtOriginal": "FRAIM名義のPR TIMES掲載：2026年10月14日 10:00 JST。公式発表ページも同日付です。",
+      "publicationDateNote": "FRAIM公式ページの日付と、同社名義のPR TIMES公開時刻を確認しました。",
+      "publicationDateEvidenceUrl": "https://prtimes.jp/main/html/rd/p/000000114.000037680.html",
+      "eventDate": "2026-04〜2026-06（PoC実施）",
+      "eventDateNote": "運用回答の送信は人が確認する設計。今後の効果検証や本番導入はこれからです。",
+      "selfReportedMetrics": true,
+      "metricsNote": "約1万8,000件の分類数はFRAIMとマネーフォワードの公表値です。",
+      "sourceType": "FRAIM公式ニュース、公開時刻は発表元名義のPR TIMES",
+      "vendors": [
+        "FRAIM",
+        "マネーフォワード"
+      ]
+    },
+    {
+      "id": "nttat-relai-counter",
+      "region": "japan",
+      "category": "product",
+      "title": "NTT-AT、自治体窓口向け「RelAi」アシスタントを提供へ",
+      "summary": "NTTアドバンステクノロジは、窓口での会話をリアルタイムで文字起こし・要約し、マニュアルやFAQ、条例を根拠に回答候補を示す生成AIサービスを発表しました。応対記録の作成支援やハラスメント検知にも対応し、葛飾区での実証を基に製品化します。",
+      "whyItMatters": "住民対応の記録や職員間の知識共有を支援し、窓口業務のばらつきを抑える候補です。LGWAN対応環境や個人情報保護など、自治体の運用条件を確認する必要があります。",
+      "publisher": "NTTアドバンステクノロジ株式会社",
+      "originalUrl": "https://www.ntt-at.co.jp/news/2026/detail/release261014.html",
+      "publicationDate": "2026-10-14",
+      "publicationDateJst": "2026-10-14",
+      "publishedAtOriginal": "NTT-AT名義のPR TIMES掲載：2026年10月14日 11:30 JST。公式ページも同日付です。",
+      "publicationDateNote": "NTT-AT公式ニュースの日付と、発表元名義のPR TIMES公開時刻を確認しました。",
+      "publicationDateEvidenceUrl": "https://prtimes.jp/main/html/rd/p/000000395.000023654.html",
+      "eventDate": "2026-10-15（提供開始予定）",
+      "eventDateNote": "自治体向けサービスとして、葛飾区での実証を踏まえて提供されます。",
+      "selfReportedMetrics": false,
+      "metricsNote": "実証の定量的な業務削減効果は発表に掲載されていません。",
+      "sourceType": "NTT-AT公式ニュース、公開時刻は発表元名義のPR TIMES",
+      "vendors": [
+        "NTTアドバンステクノロジ",
+        "RelAi"
+      ]
+    },
+    {
+      "id": "nec-disaster-vlm",
+      "region": "japan",
+      "category": "business_case",
+      "title": "NEC、災害現場の小さな損傷を画像から見つけるVLM技術",
+      "summary": "NECは、災害現場の画像から小さな損傷を見つけ、追加の損傷種別も学習できる視覚言語モデル技術を発表しました。検証では、条件に合う画像の探索に約7時間かかっていた作業を1時間未満に短縮したとしています。",
+      "whyItMatters": "被災状況の確認や初動判断に必要な画像の仕分けを効率化する可能性があります。自治体やインフラ事業者の導入候補ですが、実運用に向けた提供は2027年度を目標とする研究・開発段階です。",
+      "publisher": "日本電気株式会社（NEC）",
+      "originalUrl": "https://www.nec.com/en/press/202610/global_20261014_01.html",
+      "publicationDate": "2026-10-14",
+      "publicationDateJst": "2026-10-14",
+      "publishedAtOriginal": "NEC AIプレス一覧に2026年10月14日 10:00（+0900）と表示。本文も東京、2026年10月14日付です。",
+      "publicationDateNote": "NEC公式AIプレス一覧の時刻と、同社公式発表本文の日付を確認しました。",
+      "publicationDateEvidenceUrl": "https://www.nec.com/en/global/solutions/ai/press/index.html",
+      "eventDate": "2027年度の導入を目標",
+      "eventDateNote": "現時点では技術検証の発表で、一般向け製品の提供開始ではありません。",
+      "selfReportedMetrics": true,
+      "metricsNote": "約7時間から1時間未満という比較はNECによる検証値です。",
+      "sourceType": "NEC公式プレスリリースと公式AI発表一覧",
+      "vendors": [
+        "NEC"
+      ]
+    },
+    {
+      "id": "ntthumanex-dx-ai-learning",
+      "region": "japan",
+      "category": "product",
+      "title": "NTT HumanEX、全社員向けDX・生成AI学習サービスを開始",
+      "summary": "NTT HumanEXは、DX、生成AI、情報セキュリティと業務での実践を学べる定額制サービス「DX＆AI ビギンズパス」を提供開始しました。1本3〜10分の教材などを通じて、全社員向けの段階的な学習を支援します。",
+      "whyItMatters": "社内のAI研修を一から編成しにくい人材開発チームが、基礎教育を継続的に用意する候補です。自社の業務やデータ取扱いに合わせた演習を別途設計できるかも確認点です。",
+      "publisher": "株式会社NTT HumanEX",
+      "originalUrl": "https://www.ntthumanex.co.jp/newsrelease/261014/",
+      "publicationDate": "2026-10-14",
+      "publicationDateJst": "2026-10-14",
+      "publishedAtOriginal": "NTT HumanEX名義のPR TIMES掲載：2026年10月14日 10:30 JST。公式発表も同日付です。",
+      "publicationDateNote": "NTT HumanEX公式ニュースの日付と、発表元名義のPR TIMES公開時刻を確認しました。",
+      "publicationDateEvidenceUrl": "https://prtimes.jp/main/html/rd/p/000000020.000127485.html",
+      "eventDate": "2026-10-14（提供開始）",
+      "eventDateNote": "月額制。発表では人材開発支援助成金を利用できる場合があると案内しています。",
+      "selfReportedMetrics": false,
+      "metricsNote": "講座長や対象テーマはサービス説明に基づきます。学習効果の独立評価値はありません。",
+      "sourceType": "NTT HumanEX公式ニュース、公開時刻は発表元名義のPR TIMES",
+      "vendors": [
+        "NTT HumanEX"
+      ]
+    }
+  ]
+}
