@@ -44,7 +44,7 @@
 
 日次更新時は、Sites用 `scripts/archive-index.json` の先頭に新しい号を追加し、同じ `sourceDate` のHTMLとMP3を `dist/editions/` に保存してから `node scripts/build-homepage.mjs` を実行します。GitHub側の `data/index.json` も新しい配信日順に更新し、過去の索引項目を残します。配信前に各索引リンクが実在する日付別ページへ到達することをテストで確かめます。
 
-現在のトップページは https://daily-ai-business-news.kamokamojp.chatgpt.site/ です。最新の2026年10月15日配信号（対象日10月14日）の固定ページは https://daily-ai-business-news.kamokamojp.chatgpt.site/editions/2026-10-14.html です。2026年10月9日配信号（対象日10月8日）の固定ページは https://daily-ai-business-news.kamokamojp.chatgpt.site/editions/2026-10-08.html です。
+現在のトップページは https://daily-ai-business-news.kamokamojp.chatgpt.site/ です。最新の2026年10月16日配信号（対象日10月15日）の固定ページは https://daily-ai-business-news.kamokamojp.chatgpt.site/editions/2026-10-15.html です。過去の2026年10月15日配信号（対象日10月14日）は https://daily-ai-business-news.kamokamojp.chatgpt.site/editions/2026-10-14.html です。2026年10月9日配信号（対象日10月8日）の固定ページは https://daily-ai-business-news.kamokamojp.chatgpt.site/editions/2026-10-08.html です。
 
 ## リーダーと試作版
 
@@ -61,6 +61,6 @@ GitHub上ではMarkdown版をそのまま読めます。`previews/recent-ai-busi
 
 対象日に公開日を確認できた6件を掲載する部分版です。日付や時刻を日本時間で確認できなかった候補は含めず、前号のニュースで穴埋めしていません。固定HTMLにはニュース本文、VOICEVOX Nemoの音声、司会者画像、読み上げと速度の操作を保持しています。
 
-## 2026年10月15日配信の注記
+## 2026年10月16日配信の注記
 
-対象日に発表元の公開時刻まで確認できた日本のニュース6件を掲載する部分版です。SCSKのCELF AI開発エージェント、PeopleXのAI営業支援、FRAIMとマネーフォワードの法務AI実証、NTT-ATの自治体窓口支援、NECの災害画像解析、NTT HumanEXのAI学習サービスを扱います。OpenAI、Anthropic、xAI、Googleなどの海外候補も調べましたが、公式ページの日付だけでは日本時間の対象日に公開されたと確認できないため含めていません。発表元の自己申告値、実証段階、今後の提供予定は記事ごとに注記しています。
+対象日に発表元の公開時刻を確認できた日本の実務向けニュース5件を掲載する部分版です。CTC・日本IBMのAI駆動開発、TDCソフトのAI活用計画支援、NTT-ATのRPA開発構想、NTTテクノクロスの健康管理AI、YOMELのオフライン録音機能を扱います。OpenAI、Anthropic、xAI、Googleなど海外候補も調べましたが、JSTの対象日を裏付ける公式公開時刻・タイムゾーンが不明なものは除外しました。
