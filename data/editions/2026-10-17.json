@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "editionDate": "2026-10-18",
+  "sourceDate": "2026-10-17",
+  "status": "partial",
+  "updatedAt": "2026-10-17T23:13:38Z",
+  "timezone": "Asia/Tokyo",
+  "notice": "2026年10月17日（日本時間）に公開日時を一次発表で確認できたAIビジネス関連ニュースを掲載しています。公開日を日本時間で確定できない候補は採用せず、実施予定と発表日を分けて記載しました。発表時点で製品公開・予約開始前の情報はその旨を明記しています。今回の一覧は調査範囲の一部が利用できず網羅性未確認のため部分版です。",
+  "articles": [
+    {
+      "id": "aimoga-mobo-family-companion-robot",
+      "region": "world",
+      "category": "product",
+      "title": "AiMOGA、家庭向け伴走ロボット「Mobo」を発表へ　予約は10月21日開始予定",
+      "summary": "AiMOGA Roboticsは、Chery International User Summitで家庭向けヒューマノイドロボット「Mobo」を2026年10月21日に披露し、同日に世界向け予約を始める予定だと発表しました。音声での対話、視覚による物体認識、予定のリマインダー、長期記憶を備え、同社のMoAgentが知覚・対話・実行をつなぐと説明しています。",
+      "whyItMatters": "ロボット事業の焦点を商業現場から家庭向けへ広げる動きで、音声・視覚・会話履歴・タスク計画を一つの製品体験にまとめる設計が見どころです。企業が家庭向けAI製品を検討する際の参考になりますが、発表時点では製品公開・予約開始前で、家庭での性能や導入実績はまだ検証できません。",
+      "publisher": "AiMOGA Robotics（GlobeNewswire）",
+      "originalUrl": "https://www.globenewswire.com/news-release/2026/10/17/3382868/0/en/aimoga-to-unveil-mobo-its-first-family-companion-robot-on-october-21.html",
+      "publicationDate": "2026-10-17",
+      "publicationDateJst": "2026-10-17",
+      "publishedAtOriginal": "2026年10月17日 06:27 ET（米東部時間）。2026年10月17日 19:27 JSTに相当。",
+      "publicationDateNote": "GlobeNewswire原文に発表者 AiMOGA の名義と2026年10月17日 06:27 ETが表示されています。該当日は米東部夏時間（UTC−4）で、JST（UTC+9）への換算は同日19:27です。",
+      "publicationDateEvidenceUrl": "https://www.globenewswire.com/news-release/2026/10/17/3382868/0/en/aimoga-to-unveil-mobo-its-first-family-companion-robot-on-october-21.html",
+      "eventDate": "2026年10月21日（世界公開・予約開始予定）",
+      "eventDateNote": "いずれも発表時点の予定です。2026年10月17日の発表時点では公開・予約開始前です。",
+      "selfReportedMetrics": false,
+      "metricsNote": "定量的な業務効果や性能指標は発表されていません。機能・発売予定はAiMOGAによる製品発表で、実運用の検証結果とは区別しています。",
+      "sourceType": "AiMOGA Roboticsの発表者名義GlobeNewswireリリース",
+      "vendors": [
+        "AiMOGA Robotics",
+        "Chery",
+        "Mobo",
+        "MoAgent"
+      ]
+    }
+  ],
+  "radioAudioUrl": "https://daily-ai-business-news.kamokamojp.chatgpt.site/editions/radio_show-2026-10-17.mp3",
+  "radioScriptPath": "scripts/radio-script-2026-10-17.json",
+  "radioBuilderPath": "scripts/build-radio-2026-10-17.mjs",
+  "radioSpeechPath": "scripts/speech-2026-10-17.js"
+}
