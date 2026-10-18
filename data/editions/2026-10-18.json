@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "editionDate": "2026-10-19",
+  "sourceDate": "2026-10-18",
+  "status": "ready",
+  "updatedAt": "2026-10-18T23:12:00Z",
+  "timezone": "Asia/Tokyo",
+  "notice": "2026年10月18日（日本時間）に公開日時を確認できたAIビジネス関連ニュースを掲載しています。記事数は日ごとのニュース量により異なり、出典と実務上の意味を併記しています。",
+  "articles": [
+    {
+      "id": "zen-cogknit-battlefield-management-acquisition",
+      "region": "world",
+      "category": "business_case",
+      "title": "Zen Technologies、Cogknitの51.98%取得を承認　戦場管理システムとEdge AIを傘下に",
+      "summary": "インドの防衛技術企業Zen Technologiesは、Cogknit Semanticsの51.98%株式取得に向け、13億5,150万ルピー（₹135.15 crore）を投じる取締役会承認を発表しました。Cogknitは、戦車・車両・兵士をつなぐ戦場管理システムを開発し、同社資料によるとインド陸軍での試験を終えています。取引完了は通常のクロージング条件を満たすことが前提です。",
+      "whyItMatters": "Zenは、Cogknitのデータ処理・エッジAI・指揮統制技術を、同社のAI基盤Samvidや訓練シミュレーター、対ドローン製品群と組み合わせる構想を示しました。防衛分野で、現場データの共有と判断をつなぐ企業グループ戦略の例ですが、AIの性能や導入効果を示す定量結果は公表されておらず、現時点で取引も完了していません。",
+      "publisher": "Zen Technologies Limited（NSE提出資料）",
+      "originalUrl": "https://nsearchives.nseindia.com/corporate/ZENTEC_18102026112012_PressRelease18102026.pdf",
+      "publicationDate": "2026-10-18",
+      "publicationDateJst": "2026-10-18",
+      "publishedAtOriginal": "2026年10月18日 11:20:44 IST（インド標準時、UTC+5:30）。2026年10月18日 14:50:44 JSTに相当。",
+      "publicationDateNote": "NSEの企業発表一覧にBroadcast Date/Timeとして2026年10月18日 11:20:44 ISTが表示されています。原資料のプレスリリースにも2026年10月18日の日付があります。ISTからJSTへの換算は+3時間30分です。",
+      "publicationDateEvidenceUrl": "https://www.nseindia.com/companies-listing/corporate-filings-announcements?symbol=ZENTEC&tab=corporate-announcements",
+      "eventDate": "2026年10月18日（取締役会の承認日）",
+      "eventDateNote": "承認と発表の時点で株式取得は未完了で、クロージング条件の充足が必要です。",
+      "selfReportedMetrics": true,
+      "metricsNote": "投資額₹135.15 croreと取得持分51.98%はZen Technologiesが公表した取引条件です。AIの性能・事業効果の測定値は示されていません。",
+      "sourceType": "Zen Technologiesの公式プレスリリースをNSE企業発表資料として掲載",
+      "vendors": [
+        "Zen Technologies",
+        "Cogknit Semantics",
+        "Samvid"
+      ]
+    }
+  ],
+  "radioAudioUrl": "https://daily-ai-business-news.kamokamojp.chatgpt.site/editions/radio_show-2026-10-18.mp3",
+  "radioScriptPath": "scripts/radio-script-2026-10-18.json",
+  "radioBuilderPath": "scripts/build-radio-2026-10-18.mjs",
+  "radioSpeechPath": "scripts/speech-2026-10-18.js"
+}
