@@ -44,7 +44,7 @@
 
 日次更新時は、Sites用 `scripts/archive-index.json` の先頭に新しい号を追加し、同じ `sourceDate` のHTMLとMP3を `dist/editions/` に保存してから `node scripts/build-homepage.mjs` を実行します。GitHub側の `data/index.json` も新しい配信日順に更新し、過去の索引項目を残します。配信前に各索引リンクが実在する日付別ページへ到達することをテストで確かめます。
 
-現在のトップページは https://daily-ai-business-news.kamokamojp.chatgpt.site/ です。最新の2026年10月19日配信号（対象日10月18日）の固定ページは https://daily-ai-business-news.kamokamojp.chatgpt.site/editions/2026-10-18.html です。前回の2026年10月18日配信号（対象日10月17日）は https://daily-ai-business-news.kamokamojp.chatgpt.site/editions/2026-10-17.html です。過去の2026年10月15日配信号（対象日10月14日）は https://daily-ai-business-news.kamokamojp.chatgpt.site/editions/2026-10-14.html です。2026年10月9日配信号（対象日10月8日）の固定ページは https://daily-ai-business-news.kamokamojp.chatgpt.site/editions/2026-10-08.html です。
+現在のトップページは https://daily-ai-business-news.kamokamojp.chatgpt.site/ です。最新の2026年10月20日配信号（対象日10月19日）の固定ページは https://daily-ai-business-news.kamokamojp.chatgpt.site/editions/2026-10-19.html です。前回の2026年10月19日配信号（対象日10月18日）は https://daily-ai-business-news.kamokamojp.chatgpt.site/editions/2026-10-18.html です。過去の2026年10月18日配信号（対象日10月17日）は https://daily-ai-business-news.kamokamojp.chatgpt.site/editions/2026-10-17.html です。過去の2026年10月15日配信号（対象日10月14日）は https://daily-ai-business-news.kamokamojp.chatgpt.site/editions/2026-10-14.html です。過去の2026年10月9日配信号（対象日10月8日）の固定ページは https://daily-ai-business-news.kamokamojp.chatgpt.site/editions/2026-10-08.html です。
 
 ## リーダーと試作版
 
