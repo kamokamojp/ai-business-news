@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "editionDate": "2026-10-26",
+  "sourceDate": "2026-10-25",
+  "status": "partial",
+  "updatedAt": "2026-10-25T23:13:17Z",
+  "timezone": "Asia/Tokyo",
+  "notice": "2026年10月25日（日本時間）に公開日を一次情報で確認できたAIビジネス関連ニュース1件を掲載する部分版です。日本・海外の公式発表を対象に調査しましたが、公開日時が対象日と確認できない候補は除外しています。これは確認できた範囲の一覧であり、ニュースが存在しないことを意味しません。",
+  "articles": [
+    {
+      "id": "open-webui-v0-12-4-on-demand-skills-20261025",
+      "region": "world",
+      "category": "product",
+      "title": "Open WebUI v0.12.4、選択したスキルのオンデマンド読み込みに対応",
+      "summary": "Open WebUIプロジェクトは10月25日公開のv0.12.4で、管理者が有効化した場合に、チャットで選択したスキルを必要時に読み込む設定を追加しました。スキルの説明を毎回すべてモデルへ渡す方式ではなく、必要なときに読み込む設計で、明示的に言及されたスキルはすぐ読み込まれます。会話のコンテキストを要約する圧縮処理も、チャット画面で見えるようになりました。",
+      "whyItMatters": "Open WebUIを自社環境で運用する組織は、スキルの利用条件を管理者設定で切り替え、業務ごとの指示がどのタイミングで読み込まれるかを検証できます。設定は既定でオフで、組み込みのSkillsツールが必要です。対象モデル・権限・ログの挙動をテスト環境で確認し、要約後も重要な条件が保持されるかを実業務に近い会話で評価するのが実務的です。",
+      "publisher": "Open WebUIプロジェクト",
+      "originalUrl": "https://github.com/open-webui/open-webui/releases/tag/v0.12.4",
+      "publicationDate": "2026-10-25",
+      "publicationDateJst": "2026-10-25",
+      "publishedAtOriginal": "GitHub Releases API published_at：2026-10-25T08:07:13Z（UTC）",
+      "publicationDateNote": "公式GitHub Releases APIのpublished_atを確認。2026年10月25日08:07:13 UTCは日本時間（UTC+9）で同日17:07:13 JSTです。",
+      "publicationDateEvidenceUrl": "https://api.github.com/repos/open-webui/open-webui/releases/tags/v0.12.4",
+      "publicationTimezoneEvidenceUrl": "https://api.github.com/repos/open-webui/open-webui/releases/tags/v0.12.4",
+      "eventDate": "v0.12.4のリリース日：2026年10月25日",
+      "eventDateNote": "リリースノート記載の変更内容。各機能を使うには管理者設定や組み込みSkillsツールなどの条件があります。",
+      "metricsNote": "リリースノートに処理時間やコスト削減などの定量効果は示されていません。",
+      "selfReportedMetrics": false,
+      "sourceType": "official GitHub release",
+      "vendors": [
+        "Open WebUI"
+      ]
+    }
+  ],
+  "radioAudioSha256": "6f9c3fefaeb262f3601f890ed94afe8dcac336bc13023c206b87a35ca7e99950",
+  "radioAudioUrl": "https://daily-ai-business-news.kamokamojp.chatgpt.site/editions/radio_show-2026-10-25.mp3",
+  "radioScriptPath": "scripts/radio-script-2026-10-25.json",
+  "radioBuilderPath": "scripts/build-radio-2026-10-25.mjs",
+  "radioSpeechPath": "scripts/speech-2026-10-25.js"
+}
