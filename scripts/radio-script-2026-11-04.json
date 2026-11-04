@@ -1,0 +1,88 @@
+{
+  "utterances": [
+    {
+      "speaker": "akari",
+      "text": "こんにちは、AIビジネスニュースです。私は水野あかりです。"
+    },
+    {
+      "speaker": "naoto",
+      "text": "高瀬直人です。今日は11月4日のニュース、8件をお届けします。"
+    },
+    {
+      "speaker": "akari",
+      "text": "この番組の音声はAIで生成しています。発音や話し方が不自然な場合がありますが、ご了承ください。"
+    },
+    {
+      "speaker": "naoto",
+      "text": "まず日本から。AIで作った業務アプリを、初日から本番で使える環境へ。"
+    },
+    {
+      "speaker": "akari",
+      "text": "VALANCEのAI Native業務OSは、データ整理からアプリ構築、運用保守まで一体です。"
+    },
+    {
+      "speaker": "naoto",
+      "text": "ZIPやGit連携で取り込むだけ。料金は個別見積もりです。"
+    },
+    {
+      "speaker": "akari",
+      "text": "続いて、オフィスの運用を助けるエージェント群です。イトーキの新サービスです。"
+    },
+    {
+      "speaker": "naoto",
+      "text": "拠点戦略、移転プロジェクト、座席の空予約解消。3つの判断を分けて支援します。"
+    },
+    {
+      "speaker": "akari",
+      "text": "営業の皆さんへ。議事録からCRMの項目を埋めるエージェントです。"
+    },
+    {
+      "speaker": "naoto",
+      "text": "ゴムマリの新サービスは、不確かな項目を推測で埋めず、要確認で返します。"
+    },
+    {
+      "speaker": "akari",
+      "text": "社内の問い合わせもAIが最後まで。Zendeskの従業員サービスAIエージェントです。"
+    },
+    {
+      "speaker": "naoto",
+      "text": "早期アクセスでは300社が600万回実行。削減時間は推計値です。"
+    },
+    {
+      "speaker": "akari",
+      "text": "海外に移ります。TencentのHy4は、画像を見てパソコンも操作します。"
+    },
+    {
+      "speaker": "naoto",
+      "text": "重みは数日以内の公開予定。今はAPIや自社製品経由の提供です。"
+    },
+    {
+      "speaker": "akari",
+      "text": "他社製のエージェントをまとめて統制。LeidosのHeadWay Dispatchです。"
+    },
+    {
+      "speaker": "naoto",
+      "text": "把握、制御、記録の3つで、暴走を止める権限を人の手に残します。"
+    },
+    {
+      "speaker": "akari",
+      "text": "推論の高速化を回し続ける。Together AIのTogether Compilerです。"
+    },
+    {
+      "speaker": "naoto",
+      "text": "エージェント群がGPUコードを最適化し、限定ベータで提供中です。"
+    },
+    {
+      "speaker": "akari",
+      "text": "最後はインド。国産の基盤モデル3つが公開されました。"
+    },
+    {
+      "speaker": "naoto",
+      "text": "EKA-1は22言語対応の大型モデル。Dhīrは軽量でオフライン利用を想定します。"
+    },
+    {
+      "speaker": "akari",
+      "text": "今日のニュースは以上です。また明日お会いしましょう。"
+    }
+  ]
+}
