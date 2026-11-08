@@ -1,1 +1,115 @@
-{"articles":[{"category":"business_case","eventDate":"資金調達の最初の締め切りは2026年11月6日（報道による）。","eventDateNote":"調達総額は約200億ドルに達する可能性があり、交渉は継続中と報じられている。","id":"openai-11b-funding-20261107","metricsNote":"110億ドル、評価額1.25兆ドル、総額約200億ドル、当初目標約300億ドル・評価額約1.4兆ドルはいずれも関係者情報として報じられた値で、OpenAIは詳細を公表していない。","originalUrl":"https://www.reuters.com/business/openai-secures-11-billion-funding-125-trillion-valuation-bloomberg-news-reports-2026-11-06/","publicationDate":"2026-11-06","publicationDateEvidenceUrl":"https://www.reuters.com/business/openai-secures-11-billion-funding-125-trillion-valuation-bloomberg-news-reports-2026-11-06/","publicationDateJst":"2026-11-07","publicationDateNote":"ロイター記事の公開時刻は2026年11月6日21時12分26秒（UTC）で、日本時間11月7日06時12分に換算。ブルームバーグの報道をロイターが伝えたもの。","publicationTimezoneEvidenceUrl":"https://www.reuters.com/business/openai-secures-11-billion-funding-125-trillion-valuation-bloomberg-news-reports-2026-11-06/","publishedAtOriginal":"2026年11月6日 21時12分（UTC・ロイター記事の公開時刻＝日本時間11月7日06時12分）","publisher":"ロイター","region":"world","selfReportedMetrics":false,"sourceType":"news report (Reuters, relaying Bloomberg)","summary":"OpenAIが110億ドルの資金調達を確保し、評価額は1.25兆ドルに達したと、ブルームバーグの報道をロイターが伝えた。ソフトバンクとMGXが参加したとされる。今回は最初の締め切りで、調達総額は約200億ドルに達する可能性があり、当初の目標は約300億ドル、評価額は約1.4兆ドルだったとされる。OpenAIは詳細を公表していない。","title":"OpenAIが110億ドルを調達、評価額は1.25兆ドル　報道","vendors":["OpenAI"],"whyItMatters":"1.25兆ドルという評価額は、AIインフラへの資金流入の規模を示す。調達がさらに続く見通しで、データセンター投資や人材獲得の原資になる。ただし数字は関係者情報で、OpenAI自身は未確認のため、確定情報として扱うには続報が必要だ。"},{"category":"trend","corroborationLabel":"Anthropic公式X（発表投稿）","corroborationUrl":"https://x.com/AnthropicAI/status/2118814753154064501","eventDate":"研究記事の公開は2026年11月7日（日本時間）。","eventDateNote":"発表日と記事公開は同じ。","id":"anthropic-agent-memory-20261107","metricsNote":"CL-Benchやポケモンレッド、wiki評価の数値はAnthropic自身の評価結果で、独立した検証値ではない。","originalUrl":"https://www.anthropic.com/research/components-of-agent-memory","publicationDate":"2026-11-06","publicationDateEvidenceUrl":"https://www.anthropic.com/research/components-of-agent-memory","publicationDateJst":"2026-11-07","publicationDateNote":"Anthropic公式Xの発表投稿は2026年11月6日21時16分（UTC）で、日本時間11月7日06時16分に換算。研究記事の表示日付は2026年11月6日（米国日付）。","publicationTimezoneEvidenceUrl":"https://x.com/AnthropicAI/status/2118814753154064501","publishedAtOriginal":"2026年11月6日 21時16分（UTC・Anthropic公式Xの発表投稿＝日本時間11月7日06時16分）","publisher":"Anthropic","region":"world","selfReportedMetrics":true,"sourceType":"issuer announcement (Anthropic)","summary":"Anthropicが、エージェントの記憶（メモリ）の仕組みに関する研究記事を公開した。セッション間で残る記憶メモリや、使っていない時間に記録を見直して誤りを修正したり、新しい表現を作ったりする「dreaming（夢を見る）」の考え方を紹介した。評価では、CL-Bench 1.0でClaude Opus 5が学習の循環を初めて閉じ、Opus 5.5とSonnet 5.5も同様だった。ポケモンレッドの実験では、記憶を9ファイルに絞ったClaude Fable 5が4つのバッジを獲得し、413ファイルに書き込んだSonnet 3.7は1バッジにとどまった。dreamingで誤った記憶を修正し、35万ファイルの文書群から作ったwikiでは、128回のdreamingで正答率が13％から48％に上がった。","title":"エージェントの記憶をどう作るか　Anthropicが「dreaming」の研究を公開","vendors":["Anthropic"],"whyItMatters":"エージェントを長く使うほど、記憶の質が成果を分ける。何でも書き込むのではなく、重要さを判断して絞り込み、誤りをあとから修正する仕組みが、実務でのエージェント運用の設計指針になる。ただし数字はAnthropic自身の評価値で、独立した検証値ではない。"},{"category":"trend","eventDate":"研究の発表は2026年11月7日（日本時間）。","eventDateNote":"発表はX投稿によるもので、DeepMindのブログ記事は確認できていない。","id":"deepmind-rsa-cryptanalysis-20261107","metricsNote":"3.5分の1、約1,600倍、約30分の1の数値は二次報道によるもので、DeepMindの一次発表（X投稿）自体には数値の記載がない。","originalUrl":"https://x.com/GoogleDeepMind/status/2118755418675765656","publicationDate":"2026-11-06","publicationDateEvidenceUrl":"https://x.com/GoogleDeepMind/status/2118755418675765656","publicationDateJst":"2026-11-07","publicationDateNote":"Google DeepMind公式Xの投稿は2026年11月6日17時20分（UTC）で、日本時間11月7日02時20分に換算。Pushmeet Kohli氏の解説記事へリンクしている。","publicationTimezoneEvidenceUrl":"https://x.com/GoogleDeepMind/status/2118755418675765656","publishedAtOriginal":"2026年11月6日 17時20分（UTC・Google DeepMind公式Xの投稿＝日本時間11月7日02時20分）","publisher":"Google DeepMind","region":"world","selfReportedMetrics":false,"sourceType":"issuer announcement (Google DeepMind, X post)","summary":"Google DeepMindは、人間が導くAIエージェントが、レガシーな1024ビットRSA暗号システムの二つの大きな弱点を見つけたとする研究を発表した。VP ScienceのPushmeet Kohli氏の解説記事へのリンクも示している。二次報道によれば、解けたベンチマークではCPU使用量が3.5分の1、32バイトの指紋の事例では理論上約1,600倍の改善、追加の鍵ごとのバッチ因数分解コストは約30分の1とされる。2048ビットのRSAには影響しないとされる。","title":"AIエージェントが1024ビットRSAの弱点を発見　DeepMindが研究を紹介","vendors":["Google DeepMind"],"whyItMatters":"暗号の安全性は長期の前提で設計されるため、AIエージェントによる解析の進展は、移行計画の前倒しを検討する材料になる。ただし対象はレガシーな1024ビットRSAで、現行の2048ビットには影響しないとされ、実務への影響は限定的だ。数値は二次報道による点にも注意が必要だ。"},{"category":"product","eventDate":"機能の提供開始は2026年11月7日（日本時間）。","eventDateNote":"発表日と提供開始は同じ。","id":"github-copilot-code-review-20261107","metricsNote":"定量効果の数値は発表されていない。","originalUrl":"https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates/","publicationDate":"2026-11-06","publicationDateEvidenceUrl":"https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates/","publicationDateJst":"2026-11-07","publicationDateNote":"GitHub Changelogの公開時刻は2026年11月6日16時27分19秒（米国太平洋時間、UTC-08:00）で、日本時間11月7日09時27分に換算。","publicationTimezoneEvidenceUrl":"https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates/","publishedAtOriginal":"2026年11月6日 16時27分（米国太平洋時間・GitHub Changelogの公開時刻＝日本時間11月7日09時27分）","publisher":"GitHub","region":"world","selfReportedMetrics":false,"sourceType":"issuer release notes (GitHub Changelog)","summary":"GitHubが、Copilotのコードレビュー機能の更新を発表した。REST／GraphQL APIで、企業から組織、リポジトリへとコードレビュー設定を制御できるようになり、組織のデフォルトを上書きできる。レビューの帰属情報や、レビュー概要のコンパクト表示も加わった。課金と信頼性の修正も含む。対象はCopilot Pro／Pro+／Max／Business／Enterprise。","title":"Copilotのコードレビュー設定をAPIで管理　GitHubが更新を発表","vendors":["GitHub"],"whyItMatters":"コードレビューの設定をAPIで一元管理できるようになり、大規模組織でのCopilot運用の統制がしやすくなる。レビューの帰属が明確になることで、AIによるレビュー結果の責任範囲も整理しやすくなる。"},{"category":"product","eventDate":"機能の提供開始は2026年11月7日（日本時間）。","eventDateNote":"発表日と提供開始は同じ。","id":"github-copilot-impact-dashboard-20261107","metricsNote":"定量効果の数値は発表されていない。","originalUrl":"https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage/","publicationDate":"2026-11-06","publicationDateEvidenceUrl":"https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage/","publicationDateJst":"2026-11-07","publicationDateNote":"GitHub Changelogの公開時刻は2026年11月6日14時17分28秒（米国太平洋時間、UTC-08:00）で、日本時間11月7日07時17分に換算。","publicationTimezoneEvidenceUrl":"https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage/","publishedAtOriginal":"2026年11月6日 14時17分（米国太平洋時間・GitHub Changelogの公開時刻＝日本時間11月7日07時17分）","publisher":"GitHub","region":"world","selfReportedMetrics":false,"sourceType":"issuer release notes (GitHub Changelog)","summary":"GitHubが、Copilotの利用状況を可視化するインパクトダッシュボードに、チャットとVS Codeエージェントの利用データを追加した。エージェントの採用状況を示すグラフは9つのCopilot体験を対象に拡大し、「Passive users」コホートは「Chat-first users」に改称された。企業・組織向けの28日間レポートにもchatとvscode_agentの項目が加わった。","title":"Copilotの利用分析にチャットとVS Codeエージェントを追加　GitHub","vendors":["GitHub"],"whyItMatters":"エージェント利用の広がりを数値で把握できるようになり、社内でのCopilot導入効果の説明や、使い方の偏りの是正に使える。チャット中心の利用者を別枠で見ることで、エージェントへの移行度合いも測れる。"},{"category":"product","eventDate":"音声モードの提供開始は2026年11月7日（日本時間）。","eventDateNote":"発表日と提供開始は同じ。CLIはv1.5.0以降が対象。","id":"google-antigravity-voice-mode-20261107","metricsNote":"定量効果の数値は発表されていない。","originalUrl":"https://antigravity.google/blog/antigravity-voice-mode","publicationDate":"2026-11-06","publicationDateEvidenceUrl":"https://antigravity.google/blog/antigravity-voice-mode","publicationDateJst":"2026-11-07","publicationDateNote":"Google公式ブログのdatePublishedは2026年11月6日17時00分（UTC）で、日本時間11月7日02時00分に換算。ブログの表示日付は2026年11月6日（米国日付）。","publicationTimezoneEvidenceUrl":"https://antigravity.google/blog/antigravity-voice-mode","publishedAtOriginal":"2026年11月6日 17時00分（UTC・Google公式ブログの公開時刻＝日本時間11月7日02時00分）","publisher":"Google","region":"world","selfReportedMetrics":false,"sourceType":"issuer announcement (Google)","summary":"Googleが、開発者向けエージェント型IDE「Antigravity」に音声モードを追加した。AntigravityアプリとCLI v1.5.0以降で利用でき、Gemini Liveでコードの変更を計画・指示したり、権限を音声で承認したりできる。破壊的な操作は引き続き画面での確認が必要。","title":"Antigravityに音声モード　Gemini Liveでコード変更を指示","vendors":["Google"],"whyItMatters":"音声でエージェントに指示できるようになり、コードレビューや移動中の確認など、手が離せない場面での開発フローが広がる。ただし破壊的操作には画面確認が残るため、音声だけでの運用には限界がある。"},{"category":"trend","eventDate":"不正アクセスは2026年10月21日（UTC）。","eventDateNote":"記事の公開は11月7日（日本時間）だが、出来事自体は10月21日。","id":"botpress-security-incident-20261107","metricsNote":"16の顧客ワークスペース、2つのワークスペースでの設定変更、10月21日07時44分〜08時23分（UTC）の時間帯はBotpressの開示による。エンドユーザーの会話へのアクセスの証拠はないとしている。","originalUrl":"https://botpress.com/blog/security-incident-disclosure-november-2026","publicationDate":"2026-11-06","publicationDateEvidenceUrl":"https://botpress.com/blog/security-incident-disclosure-november-2026","publicationDateJst":"2026-11-07","publicationDateNote":"Botpress公式ブログの公開時刻は2026年11月6日20時10分29秒（UTC）で、日本時間11月7日05時10分に換算。","publicationTimezoneEvidenceUrl":"https://botpress.com/blog/security-incident-disclosure-november-2026","publishedAtOriginal":"2026年11月6日 20時10分（UTC・Botpress公式ブログの公開時刻＝日本時間11月7日05時10分）","publisher":"Botpress","region":"world","selfReportedMetrics":false,"sourceType":"issuer incident disclosure (Botpress)","summary":"対話AIプラットフォームのBotpressが、セキュリティインシデントの詳細を公表した。攻撃者は10月12日から認証プロキシを調査し、10月21日07時44分〜08時23分（UTC）に、従業員のAPI認証情報を使って16の顧客ワークスペースのボット設定を読み取った。ボット設定にはAIプロバイダーのキーやメッセージングトークン、CRMの認証情報が含まれる場合がある。さらに2つのワークスペースで連携設定が変更された。目的はAIクレジットの転売とみられ、エンドユーザーの会話へのアクセスの証拠はないとしている。","title":"Botpressがセキュリティ侵害を開示　16顧客の設定を読み取り","vendors":["Botpress"],"whyItMatters":"AIエージェントの設定には、外部サービスの認証情報が集約されがちで、漏れると被害が広がりやすい。Botpress利用企業は、キーやトークンのローテーションと、設定の変更履歴の確認が必要だ。開示の透明性自体は、利用者の判断材料になる。"},{"category":"product","eventDate":"発表は2026年11月7日（日本時間）。","eventDateNote":"発表日と機能紹介は同じ。提供開始時期の詳細な記載はない。","id":"meta-muse-spaces-20261107","metricsNote":"定量効果の数値は発表されていない。","originalUrl":"https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/","publicationDate":"2026-11-06","publicationDateEvidenceUrl":"https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/","publicationDateJst":"2026-11-07","publicationDateNote":"TechCrunchの公開時刻は2026年11月6日18時44分20秒（UTC）で、日本時間11月7日03時44分に換算。Metaの公式発表を伝えた記事。","publicationTimezoneEvidenceUrl":"https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/","publishedAtOriginal":"2026年11月6日 18時44分（UTC・TechCrunchの公開時刻＝日本時間11月7日03時44分）","publisher":"TechCrunch","region":"world","selfReportedMetrics":false,"sourceType":"news report (TechCrunch)","summary":"Metaが、AIエージェント「Muse」の新機能「Spaces」を発表した。プロジェクトごとに分けた会話（トラッカー、プランナー、ボード）を、Museエージェントのサイドバーから開ける。サードパーティ製アプリとの接続はバックグラウンドで更新される。ザッカーバーグ氏が同日、Xで紹介した。Muse Voice（11月5日）に続く、今週2つ目のMuse関連の発表。","title":"MetaがMuseに「Spaces」　プロジェクト別の協業スペース","vendors":["Meta"],"whyItMatters":"エージェントとの協業をプロジェクト単位で整理できるようになり、長期の仕事で会話が散らかる問題への対応になる。MetaがMuseの機能追加を週単位で続けている点も、競争の速さを示している。"}],"editionDate":"2026-11-08","notice":"2026年11月7日（日本時間）に公開時刻まで一次情報で確認できたAIビジネス関連記事8件（海外8件）の部分版です。日本発の発表で、原典の公開日が11月7日（日本時間）と確認できたものはありませんでした。海外発は公式ブログや公式発表の公開時刻（UTC）から日本時間に換算しました。DラボMCPのAIチャンネル最新ブログも確認しましたが、原典の公開日が11月7日（日本時間）と確認できたものはありませんでした。Grok無料Webでは、企業公式発表のX投稿として確認できた候補から、Anthropicのエージェント記憶とGoogle DeepMindの暗号解析の発表を採用し、原典の投稿時刻から日本時間に換算しました。発表日と実際の提供・展開時期を区別し、自己申告値や引用値は注記しています。網羅リストではありません。","radioAudioUrl":"https://kamokamojp.github.io/ai-business-news/editions/radio_show-2026-11-07.mp3","radioBuilderPath":"scripts/build-radio-2026-11-07.mjs","radioScriptPath":"scripts/radio-script-2026-11-07.json","radioSpeechPath":"scripts/speech-2026-11-07.js","schemaVersion":1,"sourceDate":"2026-11-07","status":"partial","timezone":"Asia/Tokyo","updatedAt":"2026-11-07T23:32:00Z"}
+{
+ "articles": [
+  {
+   "id": "shizuku-duplex-20261108",
+   "region": "japan",
+   "category": "product",
+   "title": "「話しながら聞く」日本語音声対話モデル「Shizuku-Duplex」 Shizuku AIが発表",
+   "summary": "Shizuku AIが、日本語の全二重（フルデュプレックス）音声対話モデル「Shizuku-Duplex」を発表した。話し終わるのを待たず、相手が話している間も同時に聞き続け、相づちや割り込みにその場で反応できるとしている。CEOのあき先生がXで発表した。AI VTuber「しずく」を手がける同社は、2026年2月に米ベンチャーキャピタル大手a16zから日本初のリード投資を受けた。",
+   "whyItMatters": "キャラクターAIや音声アシスタントでは、会話の「間」の自然さが差別化の軸になりつつある。ターン制のぎこちなさが減れば、接客・受付・案内などの音声対話の実用度が上がる。ただし「GPT-Live以降初」の訴求は同社側の説明で、学術研究には先例がある点に注意が必要だ。",
+   "publisher": "Shiritomo",
+   "originalUrl": "https://hashout.jp/ai/13997/",
+   "publicationDate": "2026-11-08",
+   "publicationDateJst": "2026-11-08",
+   "publicationDateEvidenceUrl": "https://hashout.jp/ai/13997/",
+   "publicationDateNote": "CEO あき先生のX投稿は2026年11月8日付。紹介記事（Shiritomo）の公開時刻は2026年11月8日17時32分58秒（日本時間）。",
+   "publicationTimezoneEvidenceUrl": "https://hashout.jp/ai/13997/",
+   "publishedAtOriginal": "2026年11月8日（Shizuku AI CEO あき先生のX投稿。紹介記事の公開は2026年11月8日17時32分、日本時間）",
+   "eventDate": "発表は2026年11月8日（日本時間）。",
+   "eventDateNote": "発表日と紹介記事の公開は同じ。提供開始時期の詳細な記載はない。",
+   "metricsNote": "定量効果の数値は発表されていない。「GPT-Live以降初」はShizuku AI側の説明で、学術研究には先例（名古屋大学J-Moshi、2025年2月）がある。",
+   "sourceType": "issuer announcement via CEO X post (reported by Shiritomo)",
+   "vendors": [
+    "Shizuku AI"
+   ],
+   "selfReportedMetrics": false
+  },
+  {
+   "id": "olm-ai-coloring-20261108",
+   "region": "japan",
+   "category": "business_case",
+   "title": "ポケモン制作のOLM、3枚の作画から学ぶアニメ彩色AIを開発",
+   "summary": "ポケモンアニメを手がけるOLMが、手描きで彩色したわずか3枚の作画から作品の線や色調を約90秒で学習し、残りのフレームを1枚約15秒で彩色するAIツールを開発した。経済産業省の生成AIプロジェクト「GENIAC」の一環「ANIMINS」（15か月）で開発したもので、OLM Digitalの四倉達夫氏が台湾クリエイティブ・コンテンツ・フェストで発表した。学習はその作品自身の作画だけを使い、他作品は使わない。「厳密には生成AIではない」としている。",
+   "whyItMatters": "アニメ制作で最も手間のかかる彩色工程の負担軽減につながる。他作品のデータを使わない設計は、権利面の懸念を避けながら現場に導入しやすい。概念実証の段階のため、プロの現場で求められる精度への引き上げが今後の課題になる。",
+   "publisher": "Variety",
+   "originalUrl": "https://variety.com/2026/tv/markets-festivals/pokemon-anime-studio-olm-ai-coloring-tool-three-frames-1236942198/",
+   "publicationDate": "2026-11-07",
+   "publicationDateJst": "2026-11-08",
+   "publicationDateEvidenceUrl": "https://variety.com/2026/tv/markets-festivals/pokemon-anime-studio-olm-ai-coloring-tool-three-frames-1236942198/",
+   "publicationDateNote": "Variety記事の公開時刻は2026年11月7日15時43分（米国太平洋時間、UTC-08:00）で、日本時間11月8日08時43分に換算。",
+   "publicationTimezoneEvidenceUrl": "https://variety.com/2026/tv/markets-festivals/pokemon-anime-studio-olm-ai-coloring-tool-three-frames-1236942198/",
+   "publishedAtOriginal": "2026年11月7日 15時43分（米国太平洋時間・Variety記事の公開時刻＝日本時間11月8日08時43分）",
+   "eventDate": "発表は台湾クリエイティブ・コンテンツ・フェスト（11月6日〜9日）での紹介。研究プロジェクトANIMINSは2026年2月に終了。",
+   "eventDateNote": "記事の公開は11月8日（日本時間）だが、ツール自体は15か月の研究プロジェクトの成果で、概念実証の段階。",
+   "metricsNote": "約90秒で学習、1枚約15秒で彩色、彩色作業の負担約3割削減はOLM側の説明による。",
+   "sourceType": "news report (Variety)",
+   "vendors": [
+    "OLM"
+   ],
+   "selfReportedMetrics": true
+  },
+  {
+   "id": "apple-xcode-plugin-claude-code-20261108",
+   "region": "world",
+   "category": "product",
+   "title": "Apple公式のXcodeプラグインがClaude Codeに登場",
+   "summary": "Apple公式のXcodeプラグインが、AnthropicのClaude Code公式マーケットプレイスに登場した。「/plugin install xcode@claude-plugins-official」の1行で導入でき、Claude CodeからXcodeプロジェクトのビルド・実行・テスト、SwiftUIプレビューの表示、シミュレーターや実機の操作、ビルドログの確認ができる。Appleからの公式発表はなく、Xでの投稿をきっかけに広まった。プラグイン本体はインストール済みのXcodeに付属するもので、マーケットプレイスのエントリはそれを呼び出す仕組み。",
+   "whyItMatters": "エージェントにiPhoneアプリ開発の一連の作業を任せられるようになり、手動の設定が不要になる。Xcode 26.3でのClaude Agent SDK統合と合わせ、AIによるアプリ開発の現場導入が進む。ただし対応するXcodeのバージョンは未確認で、Appleの公式発表もないため、導入前に手元の環境での確認が必要だ。",
+   "publisher": "iPhone Wired",
+   "originalUrl": "https://iphonewired.com/news/1200319/",
+   "corroborationLabel": "Anthropic公式マーケットプレイス（xcodeエントリ）",
+   "corroborationUrl": "https://github.com/anthropics/claude-plugins-official/blob/main/.claude-plugin/marketplace.json",
+   "publicationDate": "2026-11-08",
+   "publicationDateJst": "2026-11-08",
+   "publicationDateEvidenceUrl": "https://iphonewired.com/news/1200319/",
+   "publicationDateNote": "iPhone Wired記事の公開時刻は2026年11月8日00時35分08秒（UTC）で、日本時間11月8日09時35分に換算。Anthropicの公式マーケットプレイスにauthor「Apple Inc.」のxcodeエントリがあることを直接確認した。",
+   "publicationTimezoneEvidenceUrl": "https://iphonewired.com/news/1200319/",
+   "publishedAtOriginal": "2026年11月8日 00時35分（UTC・iPhone Wired記事の公開時刻＝日本時間11月8日09時35分）",
+   "eventDate": "マーケットプレイスへの掲載は2026年11月8日に確認。関連するプルリクエストは11月6日にマージ。",
+   "eventDateNote": "Appleからの公式発表はなく、Xでの話題化がきっかけ。対応するXcodeのバージョンは未確認。",
+   "metricsNote": "定量効果の数値は発表されていない。Xでの関連投稿は11月7日00時00分（UTC）以降に約103件と報じられている。",
+   "sourceType": "news report (iPhone Wired)",
+   "vendors": [
+    "Apple",
+    "Anthropic"
+   ],
+   "selfReportedMetrics": false
+  },
+  {
+   "id": "shude-fanuc-cobot-20261108",
+   "region": "world",
+   "category": "business_case",
+   "title": "樹德企業とFANUC、AI視覚を使う協働ロボット工作站を発表",
+   "summary": "台湾の収納用品大手・樹德企業が、日本のFANUCと共同で協働ロボットアーム工作站「SRA-1000」を発表した。FANUCのロボットアームにAI機器視覚を組み合わせ、ワークの位置・向き・外観の違いを識別して移動軌道をその場で調整できる。2026年第2四半期からシンガポールへの出荷を始めており、台湾の科技・伝統産業の大手からも引き合いがあるとしている。樹德はすでに自社生産ラインにもAI自動化設備を導入している。",
+   "whyItMatters": "固定動作の繰り返しが中心だった産業用ロボットにAI視覚が加わることで、多品種・変量の現場への適用が広がる。既存ラインに据え置く形の工作站として提供されるため、導入のハードルが下がる。日本企業の技術と台湾企業の現場知見を組み合わせた協業の事例としても参考になる。",
+   "publisher": "経済日報",
+   "originalUrl": "https://money.udn.com/money/amp/story/5612/9864680",
+   "publicationDate": "2026-11-08",
+   "publicationDateJst": "2026-11-08",
+   "publicationDateEvidenceUrl": "https://money.udn.com/money/amp/story/5612/9864680",
+   "publicationDateNote": "経済日報の公開時刻は2026年11月8日10時35分（台湾時間、UTC+08:00）で、日本時間11月8日11時35分に換算。",
+   "publicationTimezoneEvidenceUrl": "https://money.udn.com/money/amp/story/5612/9864680",
+   "publishedAtOriginal": "2026年11月8日 10時35分（台湾時間・経済日報の公開時刻＝日本時間11月8日11時35分）",
+   "eventDate": "発表は2026年11月8日。2026年第2四半期からシンガポールへの出荷を開始済み。",
+   "eventDateNote": "発表日と出荷開始は別。出荷は第2四半期からで、発表はその後の紹介。",
+   "metricsNote": "耐荷重800kg、移動時400kgなど工作站の仕様値はメーカー側の説明による。",
+   "sourceType": "news report (経済日報)",
+   "vendors": [
+    "樹德企業",
+    "FANUC"
+   ],
+   "selfReportedMetrics": true
+  }
+ ],
+ "editionDate": "2026-11-09",
+ "notice": "2026年11月8日（日本時間）に公開時刻まで一次情報で確認できたAIビジネス関連記事4件（日本2件・海外2件）の部分版です。日曜日のため各社の発表は少なめでした。DラボMCPのAIチャンネル最新ブログも確認しましたが、原典の公開日が11月8日（日本時間）と確認できたものはありませんでした。Grok無料Webでは、対象期間の企業公式X投稿にAI関連の発表は確認できませんでした。発表日と実際の提供・展開時期を区別し、自己申告値や引用値は注記しています。網羅リストではありません。",
+ "radioAudioUrl": "https://kamokamojp.github.io/ai-business-news/editions/radio_show-2026-11-08.mp3",
+ "radioBuilderPath": "scripts/build-radio-2026-11-08.mjs",
+ "radioScriptPath": "scripts/radio-script-2026-11-08.json",
+ "radioSpeechPath": "scripts/speech-2026-11-08.js",
+ "schemaVersion": 1,
+ "sourceDate": "2026-11-08",
+ "status": "partial",
+ "timezone": "Asia/Tokyo",
+ "updatedAt": "2026-11-08T23:40:00Z"
+}
