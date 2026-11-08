@@ -1,210 +1,216 @@
 {
-  "schemaVersion": 1,
-  "timezone": "Asia/Tokyo",
-  "editions": [
-    {
-      "editionDate": "2026-11-08",
-      "sourceDate": "2026-11-07",
-      "path": "editions/2026-11-07.html",
-      "status": "partial"
-    },
-    {
-      "editionDate": "2026-11-07",
-      "sourceDate": "2026-11-06",
-      "path": "editions/2026-11-06.html",
-      "status": "partial"
-    },
-    {
-      "editionDate": "2026-11-06",
-      "sourceDate": "2026-11-05",
-      "path": "editions/2026-11-05.html",
-      "status": "partial"
-    },
-    {
-      "editionDate": "2026-11-05",
-      "sourceDate": "2026-11-04",
-      "path": "editions/2026-11-04.html",
-      "status": "partial"
-    },
-    {
-      "editionDate": "2026-11-04",
-      "sourceDate": "2026-11-03",
-      "path": "editions/2026-11-03.html",
-      "status": "partial"
-    },
-    {
-      "editionDate": "2026-11-03",
-      "sourceDate": "2026-11-02",
-      "path": "editions/2026-11-02.html",
-      "status": "partial"
-    },
-    {
-      "editionDate": "2026-11-02",
-      "sourceDate": "2026-11-01",
-      "path": "editions/2026-11-01.html",
-      "status": "partial"
-    },
-    {
-      "editionDate": "2026-11-01",
-      "sourceDate": "2026-10-31",
-      "path": "editions/2026-10-31.html",
-      "status": "partial"
-    },
-    {
-      "editionDate": "2026-10-31",
-      "sourceDate": "2026-10-30",
-      "path": "editions/2026-10-30.html",
-      "status": "partial"
-    },
-    {
-      "editionDate": "2026-10-30",
-      "sourceDate": "2026-10-29",
-      "path": "editions/2026-10-29.html",
-      "status": "partial"
-    },
-    {
-      "editionDate": "2026-10-29",
-      "sourceDate": "2026-10-28",
-      "path": "editions/2026-10-28.html",
-      "status": "partial"
-    },
-    {
-      "editionDate": "2026-10-28",
-      "sourceDate": "2026-10-27",
-      "path": "editions/2026-10-27.html",
-      "status": "partial"
-    },
-    {
-      "editionDate": "2026-10-27",
-      "sourceDate": "2026-10-26",
-      "path": "editions/2026-10-26.html",
-      "status": "partial"
-    },
-    {
-      "editionDate": "2026-10-26",
-      "sourceDate": "2026-10-25",
-      "path": "editions/2026-10-25.html",
-      "status": "partial"
-    },
-    {
-      "editionDate": "2026-10-25",
-      "sourceDate": "2026-10-24",
-      "path": "editions/2026-10-24.html",
-      "status": "partial"
-    },
-    {
-      "editionDate": "2026-10-24",
-      "sourceDate": "2026-10-23",
-      "path": "editions/2026-10-23.html",
-      "status": "partial"
-    },
-    {
-      "editionDate": "2026-10-23",
-      "sourceDate": "2026-10-22",
-      "path": "editions/2026-10-22.html",
-      "status": "partial"
-    },
-    {
-      "editionDate": "2026-10-22",
-      "sourceDate": "2026-10-21",
-      "path": "editions/2026-10-21.html",
-      "status": "partial"
-    },
-    {
-      "editionDate": "2026-10-21",
-      "sourceDate": "2026-10-20",
-      "path": "editions/2026-10-20.html",
-      "status": "partial"
-    },
-    {
-      "editionDate": "2026-10-20",
-      "sourceDate": "2026-10-19",
-      "path": "editions/2026-10-19.html",
-      "status": "ready"
-    },
-    {
-      "editionDate": "2026-10-19",
-      "sourceDate": "2026-10-18",
-      "path": "editions/2026-10-18.html",
-      "status": "ready"
-    },
-    {
-      "editionDate": "2026-10-18",
-      "sourceDate": "2026-10-17",
-      "path": "editions/2026-10-17.html",
-      "status": "partial"
-    },
-    {
-      "editionDate": "2026-10-17",
-      "sourceDate": "2026-10-16",
-      "path": "editions/2026-10-16.html",
-      "status": "partial"
-    },
-    {
-      "editionDate": "2026-10-16",
-      "sourceDate": "2026-10-15",
-      "path": "editions/2026-10-15.html",
-      "status": "partial"
-    },
-    {
-      "editionDate": "2026-10-15",
-      "sourceDate": "2026-10-14",
-      "path": "editions/2026-10-14.html",
-      "status": "partial"
-    },
-    {
-      "editionDate": "2026-10-14",
-      "sourceDate": "2026-10-13",
-      "path": "editions/2026-10-13.html",
-      "status": "ready"
-    },
-    {
-      "editionDate": "2026-10-13",
-      "sourceDate": "2026-10-12",
-      "path": "editions/2026-10-12.html",
-      "status": "ready"
-    },
-    {
-      "editionDate": "2026-10-12",
-      "sourceDate": "2026-10-11",
-      "path": "editions/2026-10-11.html",
-      "status": "partial"
-    },
-    {
-      "editionDate": "2026-10-11",
-      "sourceDate": "2026-10-10",
-      "path": "editions/2026-10-10.html",
-      "status": "partial"
-    },
-    {
-      "editionDate": "2026-10-09",
-      "sourceDate": "2026-10-08",
-      "path": "editions/2026-10-08.html",
-      "status": "partial"
-    },
-    {
-      "editionDate": "2026-10-08",
-      "sourceDate": "2026-10-07",
-      "path": "editions/2026-10-07.html",
-      "status": "ready"
-    },
-    {
-      "editionDate": "2026-10-07",
-      "sourceDate": "2026-10-06",
-      "path": "editions/2026-10-06.html",
-      "status": "ready"
-    },
-    {
-      "editionDate": "2026-10-06",
-      "sourceDate": "2026-10-05",
-      "path": "editions/2026-10-05.html",
-      "status": "ready"
-    },
-    {
-      "editionDate": "2026-10-05",
-      "sourceDate": "2026-10-04",
-      "path": "editions/2026-10-04.html",
-      "status": "ready"
-    }
-  ]
+ "schemaVersion": 1,
+ "timezone": "Asia/Tokyo",
+ "editions": [
+  {
+   "editionDate": "2026-11-09",
+   "sourceDate": "2026-11-08",
+   "path": "editions/2026-11-08.html",
+   "status": "partial"
+  },
+  {
+   "editionDate": "2026-11-08",
+   "sourceDate": "2026-11-07",
+   "path": "editions/2026-11-07.html",
+   "status": "partial"
+  },
+  {
+   "editionDate": "2026-11-07",
+   "sourceDate": "2026-11-06",
+   "path": "editions/2026-11-06.html",
+   "status": "partial"
+  },
+  {
+   "editionDate": "2026-11-06",
+   "sourceDate": "2026-11-05",
+   "path": "editions/2026-11-05.html",
+   "status": "partial"
+  },
+  {
+   "editionDate": "2026-11-05",
+   "sourceDate": "2026-11-04",
+   "path": "editions/2026-11-04.html",
+   "status": "partial"
+  },
+  {
+   "editionDate": "2026-11-04",
+   "sourceDate": "2026-11-03",
+   "path": "editions/2026-11-03.html",
+   "status": "partial"
+  },
+  {
+   "editionDate": "2026-11-03",
+   "sourceDate": "2026-11-02",
+   "path": "editions/2026-11-02.html",
+   "status": "partial"
+  },
+  {
+   "editionDate": "2026-11-02",
+   "sourceDate": "2026-11-01",
+   "path": "editions/2026-11-01.html",
+   "status": "partial"
+  },
+  {
+   "editionDate": "2026-11-01",
+   "sourceDate": "2026-10-31",
+   "path": "editions/2026-10-31.html",
+   "status": "partial"
+  },
+  {
+   "editionDate": "2026-10-31",
+   "sourceDate": "2026-10-30",
+   "path": "editions/2026-10-30.html",
+   "status": "partial"
+  },
+  {
+   "editionDate": "2026-10-30",
+   "sourceDate": "2026-10-29",
+   "path": "editions/2026-10-29.html",
+   "status": "partial"
+  },
+  {
+   "editionDate": "2026-10-29",
+   "sourceDate": "2026-10-28",
+   "path": "editions/2026-10-28.html",
+   "status": "partial"
+  },
+  {
+   "editionDate": "2026-10-28",
+   "sourceDate": "2026-10-27",
+   "path": "editions/2026-10-27.html",
+   "status": "partial"
+  },
+  {
+   "editionDate": "2026-10-27",
+   "sourceDate": "2026-10-26",
+   "path": "editions/2026-10-26.html",
+   "status": "partial"
+  },
+  {
+   "editionDate": "2026-10-26",
+   "sourceDate": "2026-10-25",
+   "path": "editions/2026-10-25.html",
+   "status": "partial"
+  },
+  {
+   "editionDate": "2026-10-25",
+   "sourceDate": "2026-10-24",
+   "path": "editions/2026-10-24.html",
+   "status": "partial"
+  },
+  {
+   "editionDate": "2026-10-24",
+   "sourceDate": "2026-10-23",
+   "path": "editions/2026-10-23.html",
+   "status": "partial"
+  },
+  {
+   "editionDate": "2026-10-23",
+   "sourceDate": "2026-10-22",
+   "path": "editions/2026-10-22.html",
+   "status": "partial"
+  },
+  {
+   "editionDate": "2026-10-22",
+   "sourceDate": "2026-10-21",
+   "path": "editions/2026-10-21.html",
+   "status": "partial"
+  },
+  {
+   "editionDate": "2026-10-21",
+   "sourceDate": "2026-10-20",
+   "path": "editions/2026-10-20.html",
+   "status": "partial"
+  },
+  {
+   "editionDate": "2026-10-20",
+   "sourceDate": "2026-10-19",
+   "path": "editions/2026-10-19.html",
+   "status": "ready"
+  },
+  {
+   "editionDate": "2026-10-19",
+   "sourceDate": "2026-10-18",
+   "path": "editions/2026-10-18.html",
+   "status": "ready"
+  },
+  {
+   "editionDate": "2026-10-18",
+   "sourceDate": "2026-10-17",
+   "path": "editions/2026-10-17.html",
+   "status": "partial"
+  },
+  {
+   "editionDate": "2026-10-17",
+   "sourceDate": "2026-10-16",
+   "path": "editions/2026-10-16.html",
+   "status": "partial"
+  },
+  {
+   "editionDate": "2026-10-16",
+   "sourceDate": "2026-10-15",
+   "path": "editions/2026-10-15.html",
+   "status": "partial"
+  },
+  {
+   "editionDate": "2026-10-15",
+   "sourceDate": "2026-10-14",
+   "path": "editions/2026-10-14.html",
+   "status": "partial"
+  },
+  {
+   "editionDate": "2026-10-14",
+   "sourceDate": "2026-10-13",
+   "path": "editions/2026-10-13.html",
+   "status": "ready"
+  },
+  {
+   "editionDate": "2026-10-13",
+   "sourceDate": "2026-10-12",
+   "path": "editions/2026-10-12.html",
+   "status": "ready"
+  },
+  {
+   "editionDate": "2026-10-12",
+   "sourceDate": "2026-10-11",
+   "path": "editions/2026-10-11.html",
+   "status": "partial"
+  },
+  {
+   "editionDate": "2026-10-11",
+   "sourceDate": "2026-10-10",
+   "path": "editions/2026-10-10.html",
+   "status": "partial"
+  },
+  {
+   "editionDate": "2026-10-09",
+   "sourceDate": "2026-10-08",
+   "path": "editions/2026-10-08.html",
+   "status": "partial"
+  },
+  {
+   "editionDate": "2026-10-08",
+   "sourceDate": "2026-10-07",
+   "path": "editions/2026-10-07.html",
+   "status": "ready"
+  },
+  {
+   "editionDate": "2026-10-07",
+   "sourceDate": "2026-10-06",
+   "path": "editions/2026-10-06.html",
+   "status": "ready"
+  },
+  {
+   "editionDate": "2026-10-06",
+   "sourceDate": "2026-10-05",
+   "path": "editions/2026-10-05.html",
+   "status": "ready"
+  },
+  {
+   "editionDate": "2026-10-05",
+   "sourceDate": "2026-10-04",
+   "path": "editions/2026-10-04.html",
+   "status": "ready"
+  }
+ ]
 }
