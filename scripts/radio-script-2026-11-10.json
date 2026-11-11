@@ -1,0 +1,104 @@
+{
+ "utterances": [
+  {
+   "speaker": "akari",
+   "text": "こんにちは、水野あかりです。今日もAIビジネスニュースをお届けします。"
+  },
+  {
+   "speaker": "naoto",
+   "text": "高瀬直人です。11月10日のニュース、10本立てでお伝えします。"
+  },
+  {
+   "speaker": "akari",
+   "text": "この番組の音声はAIで生成しています。発音や話し方が不自然な場合がありますが、ご了承ください。"
+  },
+  {
+   "speaker": "naoto",
+   "text": "まず日本から。九州の中小企業が集まり、AIを現場に定着させる機構を作りました。"
+  },
+  {
+   "speaker": "akari",
+   "text": "訪問介護では月40時間の業務が約2時間になった事例もあるそうです。"
+  },
+  {
+   "speaker": "naoto",
+   "text": "日本ハムは新リース会計基準への対応に、生成AIの判定支援を導入します。"
+  },
+  {
+   "speaker": "akari",
+   "text": "年間およそ1000件の契約を、既存システムと連携して処理する狙いです。"
+  },
+  {
+   "speaker": "naoto",
+   "text": "仙台のMAKOTO Primeは、仕事を自ら見つけるAI社員を学生インターンにも広げました。"
+  },
+  {
+   "speaker": "akari",
+   "text": "海外では、Anthropicが最上位モデル「Fable 5.2」と「Mythos 5.2」を発表しました。"
+  },
+  {
+   "speaker": "naoto",
+   "text": "料金は2割下がり、出力は最大3割速く。フェルマーの最終定理の形式化も30時間で終えたそうです。"
+  },
+  {
+   "speaker": "akari",
+   "text": "ただし数値はAnthropic自身の評価によるもので、独立した検証はまだありません。"
+  },
+  {
+   "speaker": "naoto",
+   "text": "OpenAIは、研究用AIを35秒で止める仕組み「Control Room」を導入しました。"
+  },
+  {
+   "speaker": "akari",
+   "text": "止める仕組みを推論の層に置き、サービス自体が止まっても推論を拒否する設計です。"
+  },
+  {
+   "speaker": "naoto",
+   "text": "同じくOpenAIは、ChatGPT EnterpriseをAWS Marketplaceで提供し始めました。"
+  },
+  {
+   "speaker": "akari",
+   "text": "既存のAWSの購買フローで導入でき、支出をAWSへの約束に充てられます。"
+  },
+  {
+   "speaker": "naoto",
+   "text": "Googleは、大規模AI学習の基盤「Cloud Pathways」を一般提供にしました。"
+  },
+  {
+   "speaker": "akari",
+   "text": "Geminiを育てた仕組みで、数千のTPUをひとつの司令塔で動かせます。"
+  },
+  {
+   "speaker": "naoto",
+   "text": "さらにGoogleは、AI Studioで地図アプリを文章だけで作れる連携も始めました。"
+  },
+  {
+   "speaker": "akari",
+   "text": "1日100コールまで無料で試せますが、本番には課金アカウントが必要です。"
+  },
+  {
+   "speaker": "naoto",
+   "text": "OpenAIの「dot」は、複数のパソコンをつないで使い分けられるようになりました。"
+  },
+  {
+   "speaker": "akari",
+   "text": "別のMacでテストを任せながら、自分のパソコンで作業を続けられます。"
+  },
+  {
+   "speaker": "naoto",
+   "text": "Anthropicは新規株式公開に向けたロードショーを始めました。"
+  },
+  {
+   "speaker": "akari",
+   "text": "想定価格は1株70ドルから78ドル。上場はまだ確定ではありません。"
+  },
+  {
+   "speaker": "naoto",
+   "text": "今日は大手4社の動きがそろいました。現場への広がりも見えてきました。"
+  },
+  {
+   "speaker": "akari",
+   "text": "今日はここまで。明日もAIビジネスニュースでお会いしましょう。"
+  }
+ ]
+}
