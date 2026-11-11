@@ -7,7 +7,7 @@ const templatePath = 'dist/editions/2026-11-09.html';
 const outputPath = `dist/editions/${sourceDate}.html`;
 const archiveHtmlPath = `html/ai-business-news-${sourceDate}.html`;
 const edition = JSON.parse(fs.readFileSync('scripts/edition-data.json', 'utf8'));
-const radio = JSON.parse(fs.readFileSync('scripts/radio-script-2026-11-09.json', 'utf8'));
+const radio = JSON.parse(fs.readFileSync('scripts/radio-script-2026-11-10.json', 'utf8'));
 if (edition.sourceDate !== sourceDate || edition.editionDate !== editionDate || edition.articles.length !== 10) throw new Error('Edition data does not match the dated builder.');
 if (!radio.utterances?.length || !radio.utterances.every(u => ['akari', 'naoto'].includes(u.speaker) && Array.from(u.text).length <= 90)) throw new Error('Radio script has an invalid speaker or overlong utterance.');
 if (!edition.articles.length || edition.articles.some(a => !['japan', 'world'].includes(a.region))) throw new Error('This dated issue has an invalid region.');
