@@ -3,6 +3,12 @@
   "timezone": "Asia/Tokyo",
   "editions": [
     {
+      "editionDate": "2026-11-21",
+      "sourceDate": "2026-11-20",
+      "path": "editions/2026-11-20.html",
+      "status": "partial"
+    },
+    {
       "editionDate": "2026-11-20",
       "sourceDate": "2026-11-19",
       "path": "editions/2026-11-19.html",
